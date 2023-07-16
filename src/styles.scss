@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+
+$sidenav-backdrop-zindex:        900;
+$sidenav-zindex:                1035;
+$timepicker-zindex:             1055;
+$datepicker-zindex:             1055;
+$datepicker-container-zindex:   1056;
+$zindex-toast:                  1060;
+$zindex-alert:                  1070;
+$popconfirm-backdrop-zindex:    1070;
+$popconfirm-zindex:             1080;
+$zindex-popover:                1080;
+$zindex-tooltip:                1090;
+$zindex-lightbox:               1100;
+$zindex-lightbox-toolbar:       1110;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    color: #423b3b;
+    font-size: 12px;
+    font-family: Inter,sans-serif;
+    height: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.ah-page-wrapper {
+    height: auto;
+    position: relative;
+    background: #f4f7f9;
+    min-height: 100%;
+}
+
+.ah-page-content {
+    max-width: 1920px;
+    margin: auto;
+    display: block;
+    width: auto;
+    padding: 24px 24px 52px;
+    transition: all .3s ease-in-out;
+}
